@@ -1,0 +1,18 @@
+java-spring-rest
+================
+
+Sample code for potential employees
+
+Run this project before running any of the client examples.
+
+Instructions
+================
+
+1: Clone the project.
+2: Open up the command line and navigate to the project.
+3: Type gradle run
+4: Launch your browser and navigate to http://localhost:8080/allSkills.json
+
+If you see some JSon or XML then everything went well.
+
+You can switch between Json and XML by using .json or .xml
