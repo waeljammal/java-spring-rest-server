@@ -8,10 +8,10 @@ Run this project before running any of the client examples.
 Instructions
 ================
 
-1: Clone the project.
-2: Open up the command line and navigate to the project.
-3: Type gradle run
-4: Launch your browser and navigate to http://localhost:8080/allSkills.json
+* Clone the project.
+* Open up the command line and navigate to the project.
+* Type gradle run
+* Launch your browser and navigate to http://localhost:8080/allSkills.json
 
 If you see some JSon or XML then everything went well.
 
