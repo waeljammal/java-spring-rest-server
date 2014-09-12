@@ -1,7 +1,7 @@
 java-spring-rest
 ================
 
-Sample code for potential employees
+Sample code for potential employers.
 
 Run this project before running any of the client examples.
 
