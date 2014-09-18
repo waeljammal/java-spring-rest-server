@@ -6,6 +6,8 @@ import java.util.List;
 
 /**
  * Created by Wael Jammal on 11/09/2014.
+ *
+ * Wraps the Skill objects for transport.
  */
 @XmlRootElement(name="skills")
 @SuppressWarnings("serial")

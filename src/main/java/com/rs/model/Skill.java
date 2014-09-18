@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Created by Wael Jammal on 10/09/2014.
  *
- * Describes a job entry
+ * Describes a skill entry
  */
 @Entity
 @Table(name = "skill")
