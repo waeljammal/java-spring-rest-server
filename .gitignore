@@ -1,3 +1,7 @@
-/out
-/build
-*.lock
+.gradle
+build/
+.idea
+*.iml
+
+# Ignore Gradle GUI config
+gradle-app.setting
