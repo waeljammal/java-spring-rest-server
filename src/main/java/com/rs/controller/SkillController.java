@@ -15,7 +15,7 @@ import javax.persistence.Convert;
 public class SkillController
 {
     @Autowired
-    private SkillRepository jobRepository;
+    private SkillRepository skillRepository;
 
     @RequestMapping(value = "/allSkills",
                     method = RequestMethod.GET,
@@ -23,7 +23,7 @@ public class SkillController
                     produces={"application/json", "application/xml"})
     public Skills getSkills()
     {
-        return new Skills((java.util.List<Skill>) jobRepository.findAll());
+        return new Skills((java.util.List<Skill>) skillRepository.findAll());
     }
 
     @RequestMapping(value = "/skill",
@@ -33,6 +33,6 @@ public class SkillController
     public Skill getSkill(@RequestParam(value="id", required=true, defaultValue="0") String id)
     {
         long identifier = Long.parseLong(id);
-        return jobRepository.findOne(identifier);
+        return skillRepository.findOne(identifier);
     }
 }

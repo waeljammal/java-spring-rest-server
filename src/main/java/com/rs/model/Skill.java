@@ -1,5 +1,7 @@
 package com.rs.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
@@ -24,6 +26,7 @@ public class Skill implements Serializable
     private Long id;
 
     @OneToMany(cascade = CascadeType.ALL)
+    //@JsonIgnore Normally I'd leave this in however I wanted to keep the clients simple for now.
     private List<Level> levels = new ArrayList<Level>();
 
     private String title;
