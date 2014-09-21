@@ -3,6 +3,8 @@ java-spring-rest
 
 Sample code for potential employers.
 
+Spring / Hibernate / JPA / Rest / MVC
+
 Run this project before running any of the client examples.
 
 Instructions
