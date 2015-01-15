@@ -1,7 +1,7 @@
 java-spring-rest
 ================
 
-Sample code for potential employers.
+Sample code so no tests atm.
 
 Spring / Hibernate / JPA / Rest / MVC
 
